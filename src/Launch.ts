@@ -240,7 +240,7 @@ export default class Launch extends EventEmitter {
             loaderInstall.on('patch', (patch: any) => {
                 this.emit('patch', patch);
             });
-
+            
             let jsonLoader = await loaderInstall.GetLoader(version, this.options.java.path ? this.options.java.path : gameJava.path)
                 .then((data: any) => data)
                 .catch((err: any) => err);

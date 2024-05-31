@@ -1,3 +1,3 @@
-# minecraft-java-core
+# pilotestudio-java-core
 NodeJS Module for Pilote Studio launcher
 <br>
